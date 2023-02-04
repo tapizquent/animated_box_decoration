@@ -217,5 +217,7 @@ class SmoothDecorationTween extends DecorationTween {
         return Gradient.lerp(beginGradient, endGradient, t);
       }
     }
+
+    return null;
   }
 }
